@@ -1,0 +1,50 @@
+/* Timer.css */
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 300px;
+  margin: 40px auto;
+  background-color: #fdf6ec;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timer-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff6f61;
+  margin-bottom: 20px;
+  border: 2px solid #ff6f61;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #fff6f4;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.timer-controls button {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.timer-controls button:hover {
+  background-color: #e85a4f;
+}
+
+.timer-controls button:active {
+  transform: scale(0.98);
+}

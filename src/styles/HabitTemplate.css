@@ -1,0 +1,11 @@
+.habit-page {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.habit-page h1 {
+  font-size: 32px;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
